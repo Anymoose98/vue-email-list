@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="app">
-        <ul>
+        <ul v-if="email.length == 10">
             <li v-for="(email, index) in email" :key="index" >
                 <div>{{email}}</div>
             </li>
