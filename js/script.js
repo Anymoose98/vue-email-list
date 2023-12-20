@@ -8,6 +8,10 @@ createApp({
     }
   },
 
+  created(){
+    
+  },
+
   methods: {
 
   }
