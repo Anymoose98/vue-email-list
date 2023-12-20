@@ -9,9 +9,12 @@
 </head>
 <body>
     <div id="app">
-        <ul v-if="email.length == 10">
+
+        <h1 class="text-center">Email casuali</h1>
+
+        <ul v-if="email.length == 10" class="list-unstyled text-center">
             <li v-for="(email, index) in email" :key="index" >
-                <div>{{email}}</div>
+                <div class="my-2" >{{email}}</div>
             </li>
         </ul>
         
